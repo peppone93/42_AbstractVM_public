@@ -6,7 +6,7 @@ AbstractVM is a machine that uses a stack to compute simple arithmetic expressio
 These arithmetic expressions are provided to the machine as basic assembly programs.
 AbstractVM must be aable to run programs from a file passed as a parameter and from the standard input.
 
-The language ofAbstractVMis composed of a series of instructions:
+The language of AbstractVMis composed of a series of instructions:
 - *push* (Stack a value at the top of the stack)
 - *pop* (Unstack a value at the top of the stack)
 - *dump* (Displays each value of the stack)
