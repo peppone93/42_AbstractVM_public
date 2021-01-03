@@ -29,6 +29,7 @@ AbstractVM uses 5 operand classes that must be declared and defined:
 (I have chosen to use a template for that [Operand.hpp](includes/Operand.hpp))
 
 Each one of these operand must implement the following interface [IOperand.hpp](includes/IOperand.hpp)
+
 New operands must be created via a "factory method" [OperandFactory.hpp](includes/OperandFactory.hpp)
 
 Realized bonus:
