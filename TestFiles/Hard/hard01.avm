@@ -1,0 +1,53 @@
+;hard 01
+
+push int8(-3.5)
+push int16(40)
+mul
+dump
+push int8(-2)
+div
+push float(1.000)
+div
+dump
+pop
+
+push float(2222.22)
+push double(8888.88)
+add
+dump
+pop
+
+push int8(1)
+push int16(2)
+push int32(3)
+push float(4.1)
+push double(5.900001)
+add
+add
+add
+add
+pop
+
+push float(100.0029292)
+push float(0.0029292)
+sub
+dump
+pop
+
+push int8(42)
+print
+push int8(45)
+print
+add
+print
+pop
+
+push float(10)
+push double(3.23231)
+mul
+push float(992.200000001)
+mul
+dump
+pop
+
+exit

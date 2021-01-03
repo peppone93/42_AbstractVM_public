@@ -1,0 +1,53 @@
+; hard 03
+
+push int32(999999999)
+push float(9999999999999)
+add
+dump
+pop
+
+push float(0.0000001)
+push double(0.0000000001)
+min
+dump
+push float(0.0000000000001)
+add
+dump
+pop
+
+push float(-0.000001)
+push double(-9999999999)
+sub
+dump
+pop
+
+push float(-0.000001)
+push double(9999999999)
+add
+dump
+pop
+
+push int32(9999)
+push int32(99999)
+mul
+dump
+pop
+
+push float(9999999999999999)
+push float(9999999999999999)
+mul
+dump
+pop
+
+push double(0.00000000000000001)
+push double(0.00000000000000001)
+mul
+dump
+pop
+
+push int8(1)
+push double(0.000000000000001)
+add
+assert double(1.000000000000001)
+
+exit

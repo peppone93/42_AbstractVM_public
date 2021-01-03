@@ -1,0 +1,57 @@
+; hard 02
+
+push int8(5)
+push int16(3)
+pow
+assert int16(125)
+dump
+
+push int32(30)
+rshift
+lshift
+lshift
+lshift
+dump
+
+min
+dump
+
+push double(100.2222)
+max
+
+push float(0.000000001)
+min
+assert double(0.000000001)
+
+push int32(5)
+add
+sin
+dump
+pop
+
+push double(90)
+cos
+dump
+pop
+
+push double(-450)
+sin
+push int16(-12)
+add
+dump
+
+push int32(3)
+push float(-1.523)
+pow
+dump
+pop
+
+push int16(-232)
+lshift
+lshift
+dump
+pop
+pop
+dump
+
+exit

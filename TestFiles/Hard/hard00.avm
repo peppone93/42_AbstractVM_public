@@ -1,0 +1,49 @@
+;hard 00
+
+push int8(72) ; ('H')
+print
+pop
+push int8(65) ; ('A')
+print
+pop
+push int8(82) ; ('R')
+print
+pop
+push int8(68) ; ('D')
+print
+pop
+
+push int8(1)
+push int16(-1)
+dump
+push int8(42) ; ('*')
+print
+pop
+add
+dump
+push int8(42) ; ('*')
+print
+pop
+push int32(1)
+add
+dump
+push int8(42) ; ('*')
+print
+pop
+pop
+
+
+push float(-4.1112)
+push float(2.22)
+push double(99.1000112)
+push int16(-5)
+dump
+push int8(42) ; ('*')
+print
+pop
+add
+add
+add
+dump
+
+exit
