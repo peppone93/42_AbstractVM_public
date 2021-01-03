@@ -25,6 +25,7 @@ AbstractVM uses 5 operand classes that must be declared and defined:
 - *Int32*
 - *Float*
 - *Double*
+
 (I have chosen to use a template for that [Operand.hpp](includes/Operand.hpp))
 
 Each one of these operand must implement the following interface [IOperand.hpp](includes/IOperand.hpp)
@@ -39,8 +40,8 @@ Realized bonus:
 - Colors
 - Instructions: min, max, pow, sin, cos, lshift, rshift, push, assert
 
-![alt text](screens/1.png)
-![alt text](screens/2.png)
-![alt text](screens/3.png)
+![alt text](screens/1.JPG)
+![alt text](screens/2.JPG)
+![alt text](screens/3.JPG)
 
 _If you are interested in the complete code, please do not hesitate to contact me._
