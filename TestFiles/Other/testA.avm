@@ -1,0 +1,24 @@
+push float(0.01)
+push double(2.0)
+mul
+push int16(10)
+add
+dump
+assert double(10.02)
+push float(2.33)
+div
+dump
+assert double(4.300429)
+push int8(42)
+print
+print
+add
+assert double(46.300429)
+push int8(20)
+push int16(300)
+sub
+push double(23322.323200000232323230230123)
+push float (3232323)
+push int32 (999922222)
+dump
+exit

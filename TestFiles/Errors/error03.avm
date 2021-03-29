@@ -1,0 +1,7 @@
+; pop on empty stack
+
+push int32(42)
+pop
+pop
+
+exit

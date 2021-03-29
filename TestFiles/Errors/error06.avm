@@ -1,0 +1,9 @@
+;assert not true
+
+push int32(10)
+assert int32(10)
+
+push float(334.32)
+assert float(333.32)
+
+exit

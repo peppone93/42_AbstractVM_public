@@ -1,0 +1,27 @@
+;dump00
+
+push int32(100)
+push int32(101)
+push int32(102)
+push int32(103)
+push int32(104)
+push float(10.1)
+push float(10.2)
+push float(10.3)
+
+;end push
+
+dump
+
+push int8(42)
+print
+pop
+pop
+pop
+pop
+
+;end pop
+
+dump
+
+exit ;exit

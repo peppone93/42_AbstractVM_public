@@ -1,0 +1,8 @@
+;sub
+
+push int8(100)
+push int8(58)
+sub
+print
+
+exit

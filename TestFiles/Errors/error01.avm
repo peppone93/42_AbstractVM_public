@@ -1,0 +1,5 @@
+;Overflow
+
+push int16(999999999)
+
+exit

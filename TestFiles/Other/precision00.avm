@@ -1,0 +1,9 @@
+;precision 00
+
+push double(0.000001)
+dump
+push float(3.00005)
+add
+dump
+
+exit

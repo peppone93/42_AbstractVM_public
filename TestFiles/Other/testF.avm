@@ -1,0 +1,34 @@
+;test fileeeeeeeee
+
+push int8(01)
+pusn float(.0000000001)
+push double(00000000000000000004)
+print
+push int42
+push int32(00000044432.32232)
+push int32(00000005)
+assert int42
+assert int16(333.222)
+assert int32(00000000000000b)
+assert int16(0xff)
+assert in32(0x)
+assert int8(00000001)
+assert giga(223)
+
+push float(2.2) 
+push float(2.2)	
+push float(2.2)	ll
+push float(2.2) push float(2.2)
+push double(2.1)	;a
+
+push something(stack)
+push unpush
+assert nothing
+pop lolipop
+pop ;lolipop
+dump pump
+dump ;pump
+
+exito
+exi;t
+exit

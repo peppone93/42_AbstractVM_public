@@ -1,0 +1,9 @@
+;mul
+
+push float(10)
+push float(10)
+mul
+
+dump
+
+exit

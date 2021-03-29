@@ -1,0 +1,16 @@
+; pop
+
+push int32(100)
+push int16(-100)
+add
+dump
+
+pop
+
+push float(-1.5)
+dump
+
+pop
+dump
+
+exit

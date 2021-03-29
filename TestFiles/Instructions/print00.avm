@@ -1,0 +1,12 @@
+;print CIAO
+
+push int8(67)
+print
+push int8(73)
+print
+push int8(65)
+print
+push int8(79)
+print
+
+exit

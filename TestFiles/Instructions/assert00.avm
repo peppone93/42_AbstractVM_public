@@ -1,0 +1,19 @@
+;assert file
+
+push int32(50)
+assert int32(50)
+
+push float(222.22)
+assert float(222.22)
+
+push double(200.1)
+assert double(200.1)
+assert double(200.1)
+
+push int16(6)
+assert int16(6)
+
+push float(3.333)
+assert float(3.333)
+
+exit

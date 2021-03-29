@@ -1,0 +1,17 @@
+;print ERROR
+
+push int8(69)	 ; ('E')
+print
+push int8(82)	 ; ('R')
+print
+push int8(82)
+print
+push int8(79) 	 ; ('O')
+print
+push int8(82)
+ print                                          		 
+
+push int16(42)
+print
+
+exit

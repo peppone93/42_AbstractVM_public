@@ -1,0 +1,13 @@
+;add
+
+push float(10)
+push float(10000)
+
+add
+dump
+
+push double(1.3333333333)
+add
+dump
+
+exit

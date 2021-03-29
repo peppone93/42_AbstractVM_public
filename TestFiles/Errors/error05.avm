@@ -1,0 +1,9 @@
+; no exit function
+
+push int8(42)
+print
+push float(5.5)
+push double(4.5)
+add
+
+;exit

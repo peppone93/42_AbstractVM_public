@@ -1,0 +1,9 @@
+; division by 0
+
+push double(44)
+push int32(1)
+add
+push float(0.000)
+div
+
+exit

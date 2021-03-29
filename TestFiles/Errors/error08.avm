@@ -1,0 +1,9 @@
+; modulo by 0
+
+push double(44)
+push int32(1)
+add
+push int16(0)
+mod
+
+exit

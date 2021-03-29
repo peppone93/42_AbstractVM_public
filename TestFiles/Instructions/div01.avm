@@ -1,0 +1,12 @@
+;div 00
+
+push float(5.0)
+push float(0.00000000000000000000001)
+div
+dump
+
+push double(33.0)
+push double(0.00000005)
+div
+
+exit

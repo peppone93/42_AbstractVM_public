@@ -1,0 +1,13 @@
+;mod error
+
+push int32(10)
+push int32(2)
+mod
+pop
+push int8(42)
+print
+pop
+push int32(20)
+push int16(1)
+mod
+exit

@@ -1,0 +1,13 @@
+;div 00
+
+push double(10.0)
+push double(0.000001)
+div
+pop
+
+push double(5.9)
+push double(0.0991)
+div
+pop
+
+exit

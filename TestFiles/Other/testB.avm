@@ -1,0 +1,36 @@
+;LEXER ERRORS
+aaaaaaaaaaaaaaaaaa 5545
+push int15(33)
+push Int16(33)
+;;
+;ciaociao
+push int8(4);dwdwdwd
+print
+dump
+l;pp
+push 	int16 (323)
+exit
+exit
+Div
+div
+
+
+
+
+lllllll
+assert int32(4)
+assert
+assert double(9666..)
+assert double(9666f)
+push float(kp0)
+		 assert 			float	 	 	  (14)
+push int16(09)
+push
+push float(23232302323923203203923)
+push float(23232302323923203203923)    push float(23232302323923203203923)
+push float(23232302323923203203923)push float(23232302323923203203923)
+pop
+pop          
+pop .
+push float(122 12)
+push float(10.22 5)

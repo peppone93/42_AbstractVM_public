@@ -1,0 +1,19 @@
+; arithmetic instruction with less than two values
+
+push float(10)
+push float(22.22)
+add
+
+push double(100)
+mul
+
+dump
+
+push double(5.1)
+div
+
+dump
+
+div
+
+exit

@@ -1,0 +1,7 @@
+;unknown instruction
+
+push float(1.5)
+
+del float(1.5)
+
+exit
