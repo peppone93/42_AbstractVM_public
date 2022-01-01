@@ -42,15 +42,15 @@ Realized bonus:
 - Instructions: min, max, pow, sin, cos, lshift, rshift, push, assert
 
 ![alt text](Screens/1.jpg)  
-[Screen file](TestFiles/Examples/example00.avm)  
+[Screen related file](TestFiles/Examples/example00.avm)  
 
 ![alt text](Screens/2.jpg)  
-[Screen file](TestFiles/Hard/hard03.avm)  
+[Screen related file](TestFiles/Hard/hard03.avm)  
 
 ![alt text](Screens/3.jpg)  
-[Screen file](TestFiles/Other/testA.avm)  
+[Screen related file](TestFiles/Other/testA.avm)  
 
 ![alt text](Screens/4.jpg)  
-[Screen file](TestFiles/Other/testF.avm)
+[Screen related file](TestFiles/Other/testF.avm)
 
 _If you are interested in the complete code, please do not hesitate to contact me._
